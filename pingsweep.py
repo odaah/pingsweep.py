@@ -2,6 +2,7 @@
 
 import os, sys, subprocess
 
+#Syntax python pingsweep.py 192.168.0.0-10
 net = sys.argv[1]
 net_split = net.rsplit(".",1)
 range_start = net_split[1].split("-")[0]
